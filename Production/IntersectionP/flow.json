@@ -1,0 +1,23 @@
+[
+  {
+    "vehicle": {
+      "type": "car",
+      "length": 5.0,
+      "width": 2.0,
+      "maxPosAcc": 2.0,
+      "maxNegAcc": 4.5,
+      "usualPosAcc": 1.0,
+      "usualNegAcc": 2.0,
+      "minGap": 2.5,
+      "maxSpeed": 11.176,
+      "headwayTime": 1.5
+    },
+    "route": [
+      "b08de44b-46b5-48d6-8120-43fe3903920d",
+      "a170b55c-81ad-41d3-8c3b-af0bf33bc68a"
+    ],
+    "interval": 1.9900623631157899,
+    "startTime": 0,
+    "endTime": 120
+  }
+]

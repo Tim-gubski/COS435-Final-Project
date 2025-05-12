@@ -1,0 +1,45 @@
+{
+  "intersections": [
+    {
+      "id": "I0",
+      "point": { "x": 0, "y": 0 },
+      "width": 10,
+      "roads": ["R0", "R1"],
+      "roadLinks": [],
+      "trafficLight": null,
+      "virtual": false
+    },
+    {
+      "id": "I1",
+      "point": { "x": 500, "y": 0 },
+      "width": 10,
+      "roads": ["R0", "R1"],
+      "roadLinks": [],
+      "trafficLight": null,
+      "virtual": false
+    }
+  ],
+
+  "roads": [
+    {
+      "id": "R0",
+      "startIntersection": "I0",
+      "endIntersection": "I1",
+      "points": [
+        { "x": 0, "y": 0 },
+        { "x": 500, "y": 0 }
+      ],
+      "lanes": [{ "width": 3.2, "maxSpeed": 16.67 }]
+    },
+    {
+      "id": "R1",
+      "startIntersection": "I1",
+      "endIntersection": "I0",
+      "points": [
+        { "x": 500, "y": 0 },
+        { "x": 0, "y": 0 }
+      ],
+      "lanes": [{ "width": 3.2, "maxSpeed": 16.67 }]
+    }
+  ]
+}
