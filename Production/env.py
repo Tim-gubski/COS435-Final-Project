@@ -5,6 +5,11 @@ import torch
 import numpy as np
 
 class FlowEnv:
+    '''
+    Citations.
+    Built on CityFlow API: https://cityflow.readthedocs.io/en/latest/start.html#simulation
+    Roadnet parse format from documentation: https://cityflow.readthedocs.io/en/latest/roadnet.html
+    '''
     def __init__(self, config_path: str, roadnet_path: str, MAX_STEPS: int, save_replay: bool=False):
         self.roadnet = json.load(open(roadnet_path))
         self.eng = cityflow.Engine(config_path, thread_num=1)

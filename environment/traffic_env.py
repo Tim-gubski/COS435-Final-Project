@@ -6,6 +6,10 @@ from typing import Dict, Tuple, List, Any, Optional
 
 
 class TrafficEnvironment:
+    '''
+    Old traffic environment. 
+    Built upon CityFlow API: https://cityflow.readthedocs.io/en/latest/start.html#simulation
+    '''
     def __init__(self, 
                  config_path: str,
                  roadnet_path: str,

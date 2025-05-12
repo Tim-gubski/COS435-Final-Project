@@ -99,6 +99,10 @@ class RulesAgent(Agent):
         return self.last_action
 
 class DQNAgent(Agent):
+    '''
+    Citation: built referencing DQN pseudocode here:
+    https://www.researchgate.net/figure/Pseudo-code-of-DQN-with-experience-replay-method-12_fig11_333197086
+    '''
     def __init__(self, state_dim: int, action_dim: int, MLP_DIM = 64, LR=0.001,
                  GAMMA=0.999, EPS=0.9, EPS_MIN=0.02, TAU=0.005, batch_size=32,
                  EXPLORE_FLAG=True):

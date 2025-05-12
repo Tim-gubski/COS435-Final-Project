@@ -10,8 +10,7 @@ import os
 import numpy as np
 
 class DQNAgent:
-    """Deep Q-Learning agent for traffic signal control."""
-    
+    """Old Deep Q-Learning agent for traffic signal control."""
     def __init__(self, state_size, action_size, learning_rate=0.001, gamma=0.95, 
                  epsilon=1.0, epsilon_min=0.01, epsilon_decay=0.995, memory_size=2000,
                  batch_size=32, model_path=None):

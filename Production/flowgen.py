@@ -1,6 +1,8 @@
 import json
 import random
 
+'''Generates random flows'''
+
 roadnet = json.load(open("./IntersectionP-mini/roadnet.json"))
 
 roadnames = [roadnet['roads'][i]['id'] for i in range(len(roadnet['roads']))]
